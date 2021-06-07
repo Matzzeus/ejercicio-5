@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	h<-0
+	m<-0
+	contador<-0
+	escribir "cuantes edades ingresara?"
+	leer ed
+	Mientras conrador<>ed Hacer
+		Escribir "ingrese el sexo m/f"
+		leer s
+		Escribir "ingrese edad"
+		leer edades
+		si s=="m" y edades> 18 Entonces
+			m<-m+1
+		FinSi
+		
+			si s=="h" y edades<18 Entonces
+				h<-h+1
+			FinSi
+			contador<- contador + 1
+	FinMientras
+	
+FinAlgoritmo
